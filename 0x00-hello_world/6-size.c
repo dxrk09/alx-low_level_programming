@@ -1,5 +1,8 @@
 #include <stdio.h>
-
+/**
+ * main - A program that prints the size of various computer types
+ * Return: zero
+ */
 int main(void)
 {
 
