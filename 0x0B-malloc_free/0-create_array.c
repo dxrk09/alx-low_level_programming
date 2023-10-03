@@ -2,17 +2,17 @@
 #include <stdlib.h>
 
 /**
- * create_array -  creates an array of chars, 
+ * create_array - creates an array of chars,
  * and initializes it with a specific char.
  * @size: the size of the array
  * @c: initial value
  *
- * Return: Returns a pointer to the array, or NULL if it fails
+ * Return: a pointer to the array, or NULL if it fails
  */
 char *create_array(unsigned int size, char c)
 {
-    char *array;
-    unsigned int i;
+	char *array;
+	unsigned int i;
 
 	if (size == 0)
 		return (NULL);
